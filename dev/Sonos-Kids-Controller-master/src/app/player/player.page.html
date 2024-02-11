@@ -31,11 +31,6 @@
 <ion-content class="player-content">
     <ion-grid>
         <ion-row>
-            <ion-col size="6">
-                <ion-card class="cover-card">
-                    <img src="{{this.cover}} " draggable="false" style="-moz-user-select: none;" ondragstart="return false;">
-                </ion-card>
-            </ion-col>
 
             <ion-col size="6">
                 <ion-item lines="none">
@@ -110,6 +105,13 @@
                     </ng-template>
                 </ion-grid>
             </ion-col>
+
+            <ion-col size="6">
+                <ion-card class="cover-card">
+                    <img src="{{this.cover}} " draggable="false" style="-moz-user-select: none;" ondragstart="return false;">
+                </ion-card>
+            </ion-col>
+            
         </ion-row>
     </ion-grid>
 </ion-content>
