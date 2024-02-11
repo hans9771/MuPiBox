@@ -1,6 +1,6 @@
 <?php
         include ('includes/header.php');
-		$onlinejson = file_get_contents('https://raw.githubusercontent.com/splitti/MuPiBox/main/version.json');
+		$onlinejson = file_get_contents('https://raw.githubusercontent.com/hans9771/MuPiBox/main/version.json');
 		$dataonline = json_decode($onlinejson, true);
 
         exec("sudo rm /var/www/images/screenshot.png /val/www/images/temp.png /var/www/images/cpuload.png");
@@ -83,7 +83,7 @@
 						</tr>
 					</table></p>
 			<?php
-				$news = file_get_contents("https://raw.githubusercontent.com/splitti/MuPiBox/main/news.txt");
+				$news = file_get_contents("https://raw.githubusercontent.com/hans9771/MuPiBox/main/news.txt");
 				print "<p><h2>MuPiBox-News</h2>".$news."</p>"; ?>
 			</li>
 		</ul>

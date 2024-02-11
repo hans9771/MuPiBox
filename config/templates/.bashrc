@@ -18,9 +18,9 @@ alias mountedinfo='df -hT'
 alias grep='/usr/bin/grep --color=auto'
 
 #mupibox aliases
-alias mupi-update-stable='cd; curl -L https://raw.githubusercontent.com/splitti/MuPiBox/main/update/start_mupibox_update.sh | sudo bash  -s -- stable'
-alias mupi-update-beta='cd; curl -L https://raw.githubusercontent.com/splitti/MuPiBox/main/update/start_mupibox_update.sh | sudo bash  -s -- beta'
-alias mupi-update-dev='cd; curl -L https://raw.githubusercontent.com/splitti/MuPiBox/main/update/start_mupibox_update.sh | sudo bash  -s -- dev'
+alias mupi-update-stable='cd; curl -L https://raw.githubusercontent.com/hans9771/MuPiBox/main/update/start_mupibox_update.sh | sudo bash  -s -- stable'
+alias mupi-update-beta='cd; curl -L https://raw.githubusercontent.com/hans9771/MuPiBox/main/update/start_mupibox_update.sh | sudo bash  -s -- beta'
+alias mupi-update-dev='cd; curl -L https://raw.githubusercontent.com/hans9771/MuPiBox/main/update/start_mupibox_update.sh | sudo bash  -s -- dev'
 alias mupi-show-conf='sudo cat /etc/mupibox/mupiboxconfig.json | jq . -r -C'
 alias mupi-show-data='sudo cat /home/dietpi/.mupibox/Sonos-Kids-Controller-master/server/config/data.json | jq . -r -C'
 alias mupi-show-network='sudo cat /home/dietpi/.mupibox/Sonos-Kids-Controller-master/server/config/network.json | jq . -r -C'
@@ -160,7 +160,7 @@ echo -e "  ${BCyan}Admin-UI:         ${BYellow}http://$(hostname)${Color_Off}"
 echo -e "  ${BCyan}Web-UI:           ${BYellow}http://$(hostname):8200${Color_Off}"
 echo -e "${Color_Off}"
 echo -e "  ${BCyan}visit MuPiBox:    ${BRed}https://mupibox.de${Color_Off}"
-echo -e "  ${BCyan}Latest-Version:   ${BRed}$(curl -s https://raw.githubusercontent.com/splitti/MuPiBox/main/version.json | jq -r .release.stable[-1].version)${Color_Off}"
+echo -e "  ${BCyan}Latest-Version:   ${BRed}$(curl -s https://raw.githubusercontent.com/hans9771/MuPiBox/main/version.json | jq -r .release.stable[-1].version)${Color_Off}"
 echo -e "${On_IRed}   ${On_IYellow}   ${On_IGreen}   ${On_IBlue}   ${On_ICyan}   ${On_IPurple}   ${On_IRed}   ${On_IYellow}   ${On_IGreen}   ${On_IBlue}   ${On_ICyan}   ${On_IPurple}   ${On_IRed}   ${On_IYellow}   ${On_IGreen}   ${On_IBlue}   ${On_ICyan}   ${On_IPurple}   ${Color_Off}"
 echo -e "${Color_Off}"
 unset OS

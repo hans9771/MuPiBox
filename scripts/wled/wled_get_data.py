@@ -18,7 +18,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>
 __author__ = "Olaf Splitt"
 __license__ = "GPLv3"
 __version__ = "1.0.0"
-__email__ = "splitti@mupibox.de"
+__email__ = "hans9771@mupibox.de"
 __status__ = "stable"
 
 import sys

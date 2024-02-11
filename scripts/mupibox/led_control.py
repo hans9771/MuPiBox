@@ -6,7 +6,7 @@ This script controls the power led.
 __author__ = "Olaf Splitt"
 __license__ = "GPLv3"
 __version__ = "1.0.1"
-__email__ = "splitti@mupibox.de"
+__email__ = "hans9771@mupibox.de"
 __status__ = "dev"
 
 

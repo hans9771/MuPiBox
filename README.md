@@ -12,7 +12,7 @@ Please visit official Webside https://mupibox.de/anleitungen/installationsanleit
 Please visit official Webside  https://mupibox.de/anleitungen/installationsanleitung/einfache-installation/
 ## Spend a coffee via paypal to
 - <a href="https://paypal.me/EGerhardt" target="_blank">nero</a>
-- <a href="https://paypal.me/splittscheid" target="_blank">splitti</a>
+- <a href="https://paypal.me/splittscheid" target="_blank">hans9771</a>
 
 ## Based on
 - DietPi (https://dietpi.com/)

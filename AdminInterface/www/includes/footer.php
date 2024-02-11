@@ -9,8 +9,8 @@
 				</div>
 				<div id="footercenter">
 					<ul>
-						<li><a href="https://github.com/splitti/MuPiBox" target="_blank">Visit MupiBox on Github</a></li>
-						<li><a href="https://github.com/splitti/MuPiBox/blob/main/LICENSE.md" target="_blank">License / Copyright</a></li>						
+						<li><a href="https://github.com/hans9771/MuPiBox" target="_blank">Visit MupiBox on Github</a></li>
+						<li><a href="https://github.com/hans9771/MuPiBox/blob/main/LICENSE.md" target="_blank">License / Copyright</a></li>						
 					</ul>
 				</div>
 				<div id="footerright">
